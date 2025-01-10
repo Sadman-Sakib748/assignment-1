@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* font-family: "Fira Sans", serif; */
+
+
+.banner{
+    display: flex;
+    justify-content: space-around;
+    background-color: #C6E4D6;
+    padding: 100px;
+    align-items: center;
+    border-radius: 30px;
+}
+.banner-container{
+    width: 600px;
+    height: 409px;
+    text-align: start;
+    padding: 40px;
+    align-items: center;
+    
+}
+.banner-title {
+    color: #006A50;
+    font-size: 24px;
+}
+.banner-description{
+    font-size: 40px; 
+    color: black;
+    font-weight: bold;
+    margin-top: 50px;
+
+}
+.banner-btn {
+    background-color: #006A50;
+    border: none;
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.banner-btn:hover {
+    background-color: #004a37; 
+    color: #e0ffe6; 
+}
+
+.banner-img{
+    width: 474px;
+}
+
+/* pillers section */
+
+.pillars{
+    margin-top: 50px;
+}
+.pillars-head{
+    font-family: "Fira Sans", serif;
+}
+
+.pillars-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    
+}
+.pillars-box{
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(to bottom right, #f9fafb, #ffffff);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(229, 231, 235, 0.5);
+    padding: 40px;
+    border-radius: 20px;
+    
+}
+.pillars-img{
+    width: 100%;
+    width: 200px;
+}
+.pillars-h {
+    font-family: "Fira Sans", serif;
+    font-size: 15px;
+}
+.pillars-p{
+    font-family: "Fira Sans", serif;
+}
+
+
+/* futures section */
+
