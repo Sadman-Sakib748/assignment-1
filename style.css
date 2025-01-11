@@ -554,3 +554,6 @@ section .btn button:hover {
     color: white;
     border: none;
 }
+.p-tag {
+    font-family: "Fira Sans", serif;
+}
