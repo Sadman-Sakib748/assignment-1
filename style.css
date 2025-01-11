@@ -88,7 +88,7 @@ body {
 
 .pillars-box {
     width: 200px;
-    height: 120px;
+    height: 140px;
     background: linear-gradient(to bottom right, #f9fafb, #ffffff);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border: 1px solid rgba(229, 231, 235, 0.5);
@@ -113,10 +113,11 @@ body {
 
 
 /* futures section */
-.future {
+.future-head {
     margin-top: 90px;
     font-family: "Fira Sans", serif;
 }
+
 
 .future-container {
     display: flex;
@@ -126,7 +127,7 @@ body {
 .future h3 {
     font-family: "Fira Sans", serif;
     font-size: 30px;
-    
+
 }
 
 .future p {
@@ -183,6 +184,7 @@ body {
     transition: background-color 0.3s ease, color 0.3s ease;
     margin-top: 20px;
 }
+
 .future-btn-1 {
     background-color: #5490F5;
     border: none;
@@ -193,6 +195,7 @@ body {
     transition: background-color 0.3s ease, color 0.3s ease;
     margin-top: 20px;
 }
+
 .future-btn-2 {
     background-color: #5490F5;
     border: none;
@@ -203,6 +206,7 @@ body {
     transition: background-color 0.3s ease, color 0.3s ease;
     margin-top: 20px;
 }
+
 .future-box-1 p {
     font-family: "Fira Sans", serif;
 }
@@ -244,60 +248,84 @@ body {
 
 /* doc */
 .dr-header {
-    margin-top: 70px;
-}
-.container-doc {
-    height: 196px;
-    width: 100%;
-    margin: 50px auto;
-    padding: 20px;
-    background-color: #f9fafb;
-    border-radius: 20px;
-    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+    height: 230px;
+    background-color: #f9f9f9;
+    width: 99%;
+    border-radius: 20px; 
+    border-top-left-radius: 30px; 
     position: relative;
     font-family: "Fira Sans", serif;
+    padding: 9px;
+    overflow: hidden; 
+    border: none; 
+    background: linear-gradient(to bottom right, #f9fafb, #ffffff);
+    box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.1), -8px -8px 15px rgba(255, 255, 255, 0.7);
+}
+
+.container-doc {
+    border-radius: 20px; 
+    padding: 15px;
+    border: none; 
 }
 
 .container-img img {
     position: absolute;
-    top: 0px;
-    border-radius: 12px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    top: 25px;
+    border-radius: 12px; 
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+    border: none; 
 }
-.dr-description{
+
+.dr-description {
     line-height: 22px;
     font-family: "Fira Sans", serif;
+    color: #444;
+    margin-top: 5px;
+    border-radius: 10px; 
+    padding: 10px;
+    border: none;
 }
+
 .dr-description h1 {
     margin-top: 25px;
+    color: #222;
+    font-weight: bold;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    border: none; 
 }
-.dr-description p{
-    margin-top: 15px;
+
+.dr-description p {
+    margin-top: 10px;
+    color: #555;
+    border-radius: 5px; 
+    border: none; 
 }
-
-
-
 
 /* main content */
 .news-head {
-    margin-top: 50px;
+    margin-top: 90px;
 }
 
 .news-title {
     font-family: "Fira Sans", serif;
     font-size: 40px;
     font-weight: bold;
+
 }
 
 .news-desription {
     margin-top: 20px;
     font-family: "Fira Sans", serif;
     line-height: 20px;
+    color: #6b7280;
 }
 
 .main-head {
     margin-top: 30px;
-    background: linear-gradient(to bottom right, #f9fafb, #ffffff);
+    background: linear-gradient(to bottom right, #e5e5e5, #e5e5e5);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border: 1px solid rgba(229, 231, 235, 0.5);
     border-radius: 20px;
@@ -327,6 +355,7 @@ body {
 .main-container-2 {
     margin-top: 20px;
     font-family: "Fira Sans", serif;
+    color: #6b7280;
 }
 
 .child-container-3 {
@@ -335,6 +364,7 @@ body {
 
 .child-container-3>h2 {
     margin-top: 7px;
+    color: #6b7280;
 
 }
 
@@ -350,6 +380,7 @@ body {
     display: flex;
     margin-top: 10px;
     gap: 20px;
+    color: #6b7280;
 
 }
 
@@ -358,6 +389,7 @@ body {
     margin-bottom: 10px;
     font-size: 15px;
     line-height: 20px;
+    color: #6b7280;
 }
 
 .main-container-btn {
@@ -387,16 +419,21 @@ body {
 /* card */
 .card-main {
     font-family: "Fira Sans", serif;
-    color: #6b7280;
     text-align: center;
 }
 
 .taitle {
     margin-top: 70px;
+    font-size: 40px;
+    font-weight: bold;
 }
 
 .description {
     margin-top: 30px;
+}
+
+.description {
+    color: #6b7280;
 }
 
 .card-box {
@@ -437,6 +474,7 @@ body {
     font-size: 22px;
     font-family: "Fira Sans", serif;
     font-weight: bold;
+    color: #6b7280;
 
 }
 
@@ -496,7 +534,7 @@ section .btn button:hover {
     width: 100%;
     margin: 0 auto;
     border-radius: 50px;
-    margin-top: 90px;
+    margin-top: 73px;
 }
 
 
@@ -538,6 +576,7 @@ section .btn button:hover {
     padding: 0 18px;
     outline: none;
 }
+
 .input-type::placeholder {
     color: gray;
     font-size: 14px;
@@ -554,6 +593,8 @@ section .btn button:hover {
     color: white;
     border: none;
 }
-.p-tag {
+
+.container-2 .p-tag {
     font-family: "Fira Sans", serif;
+    margin-top: 27px;
 }
