@@ -1,92 +1,548 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 /* font-family: "Fira Sans", serif; */
 
+body {
+    * {
+        margin: 0px;
+        padding: 0px;
+        overflow: hidden;
+    }
+}
 
-.banner{
+.banner {
     display: flex;
     justify-content: space-around;
     background-color: #C6E4D6;
-    padding: 100px;
     align-items: center;
     border-radius: 30px;
+    height: 600px;
 }
-.banner-container{
+
+.banner-container {
     width: 600px;
     height: 409px;
     text-align: start;
-    padding: 40px;
     align-items: center;
-    
+
 }
+
+
 .banner-title {
     color: #006A50;
     font-size: 24px;
+    font-family: "Fira Sans", serif;
+    margin-top: 56px;
+    margin-bottom: 10px;
 }
-.banner-description{
-    font-size: 40px; 
+
+.banner-description {
+    font-size: 40px;
     color: black;
+    font-family: "Fira Sans", serif;
     font-weight: bold;
-    margin-top: 50px;
+    margin-top: 20px;
 
 }
+
 .banner-btn {
     background-color: #006A50;
     border: none;
-    padding: 20px;
+    padding: 15px;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-family: "Fira Sans", serif;
+    margin-top: 20px;
+}
+
+.banner-btn:hover {
+    background-color: #004a37;
+    color: #e0ffe6;
+    font-family: "Fira Sans", serif;
+}
+
+.banner-img {
+    width: 474px;
+}
+
+/* pillers section */
+
+.pillars {
+    margin-top: 90px;
+}
+
+.pillars-head {
+    font-family: "Fira Sans", serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.pillars-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+
+}
+
+.pillars-box {
+    width: 200px;
+    height: 120px;
+    background: linear-gradient(to bottom right, #f9fafb, #ffffff);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(229, 231, 235, 0.5);
+    padding: 40px;
+    border-radius: 20px;
+
+}
+
+.pillars-img {
+    width: 100%;
+    width: 200px;
+}
+
+.pillars-h {
+    font-family: "Fira Sans", serif;
+    font-size: 15px;
+}
+
+.pillars-p {
+    font-family: "Fira Sans", serif;
+}
+
+
+/* futures section */
+.future {
+    margin-top: 90px;
+    font-family: "Fira Sans", serif;
+}
+
+.future-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.future h3 {
+    font-family: "Fira Sans", serif;
+    font-size: 30px;
+    
+}
+
+.future p {
+    margin-top: 30px;
+    font-family: "Fira Sans", serif;
+    margin-top: 20px;
+}
+
+.future-box {
+    margin-top: 30px;
+    width: 300px;
+    height: 220px;
+    line-height: 20px;
+    background: linear-gradient(to bottom right, #f9fafb, #ffffff);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(229, 231, 235, 0.5);
+    padding: 30px;
+    border-radius: 20px;
+    background: #81B4FC;
+
+}
+
+.future-box-1 {
+    margin-top: 30px;
+    width: 300px;
+    height: 220px;
+    background: linear-gradient(to bottom right, #f9fafb, #ffffff);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(229, 231, 235, 0.5);
+    padding: 30px;
+    border-radius: 20px;
+    background: #CDECDE;
+}
+
+.future-box-2 {
+    margin-top: 30px;
+    width: 300px;
+    height: 220px;
+    background: linear-gradient(to bottom right, #f9fafb, #ffffff);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(229, 231, 235, 0.5);
+    padding: 30px;
+    border-radius: 20px;
+    background: #FFF7DF;
+}
+
+.future-btn {
+    background-color: #5490F5;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin-top: 20px;
+}
+.future-btn-1 {
+    background-color: #5490F5;
+    border: none;
+    padding: 10px;
+    color: #09A15C;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin-top: 20px;
+}
+.future-btn-2 {
+    background-color: #5490F5;
+    border: none;
+    padding: 10px;
+    color: #FFC239;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin-top: 20px;
+}
+.future-box-1 p {
+    font-family: "Fira Sans", serif;
+}
+
+.future-btn:hover {
+    background-color: #5490F5;
+    color: #044d12;
+}
+
+.future-btn-1 {
+    background-color: #09A15C;
+    border: none;
+    padding: 10px;
     color: white;
     border-radius: 10px;
     cursor: pointer;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.banner-btn:hover {
-    background-color: #004a37; 
-    color: #e0ffe6; 
+.future-btn-1:hover {
+    background-color: #16181b;
+    color: #044d12;
 }
 
-.banner-img{
-    width: 474px;
+.future-btn-2 {
+    background-color: #FFC239;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-/* pillers section */
-
-.pillars{
-    margin-top: 50px;
+.future-btn-2:hover {
+    background-color: #5490F5;
+    color: #044d12;
 }
-.pillars-head{
+
+/* doc */
+.dr-header {
+    margin-top: 70px;
+}
+.container-doc {
+    height: 196px;
+    width: 100%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9fafb;
+    border-radius: 20px;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
     font-family: "Fira Sans", serif;
 }
 
-.pillars-container{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin-top: 30px;
-    
+.container-img img {
+    position: absolute;
+    top: 0px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
-.pillars-box{
-    width: 200px;
-    height: 200px;
+.dr-description{
+    line-height: 22px;
+    font-family: "Fira Sans", serif;
+}
+.dr-description h1 {
+    margin-top: 25px;
+}
+.dr-description p{
+    margin-top: 15px;
+}
+
+
+
+
+/* main content */
+.news-head {
+    margin-top: 50px;
+}
+
+.news-title {
+    font-family: "Fira Sans", serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.news-desription {
+    margin-top: 20px;
+    font-family: "Fira Sans", serif;
+    line-height: 20px;
+}
+
+.main-head {
+    margin-top: 30px;
     background: linear-gradient(to bottom right, #f9fafb, #ffffff);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border: 1px solid rgba(229, 231, 235, 0.5);
-    padding: 40px;
     border-radius: 20px;
-    
+    font-family: "Fira Sans", serif;
+    align-items: center;
 }
-.pillars-img{
+
+.main-container {
+    display: flex;
     width: 100%;
-    width: 200px;
+    /* gap: 27px; */
+    padding: 50px;
+    margin-right: 22px;
 }
-.pillars-h {
+
+.child-container {
+    margin-right: 10px;
+    gap: 10px;
+}
+
+.child-container img {
+    width: 400px;
+    border-radius: 40px;
+    margin-right: 50px;
+}
+
+.main-container-2 {
+    margin-top: 20px;
     font-family: "Fira Sans", serif;
+}
+
+.child-container-3 {
+    display: flex;
+}
+
+.child-container-3>h2 {
+    margin-top: 7px;
+
+}
+
+.child-container-3 img {
+    width: 10px;
+}
+
+.child-image {
+    margin-top: 16px;
+}
+
+.child-head {
+    display: flex;
+    margin-top: 10px;
+    gap: 20px;
+
+}
+
+.main-container-p {
+    margin-top: 10px;
+    margin-bottom: 10px;
     font-size: 15px;
+    line-height: 20px;
 }
-.pillars-p{
+
+.main-container-btn {
+    background-color: #006A50;
+    width: 100px;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin-top: 10px;
+    font-family: "Fira Sans", serif;
+
+}
+
+.main-container-btn:hover {
+    background-color: #5490F5;
+    color: #044d12;
+}
+
+.side-image {
+    padding: 20px;
+    margin-left: 160px;
+}
+
+/* card */
+.card-main {
+    font-family: "Fira Sans", serif;
+    color: #6b7280;
+    text-align: center;
+}
+
+.taitle {
+    margin-top: 70px;
+}
+
+.description {
+    margin-top: 30px;
+}
+
+.card-box {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 39px;
+    margin-bottom: 57px;
+    text-align: center;
+    width: 100%;
+    height: 110px;
+    margin-top: 50px;
+}
+
+.card-box1 {
+    cursor: pointer;
+    padding: 12px 24px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    width: 150px;
+    height: 80px;
+    align-items: center;
+    text-align: center;
+}
+
+
+.card-box1:hover {
+    background-color: #C6E4D6;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    color: #1d4ed8;
+}
+
+.card-box1 p {
+
+    margin-top: 20px;
+    font-size: 22px;
+    font-family: "Fira Sans", serif;
+    font-weight: bold;
+
+}
+
+
+
+
+.input-text {
+    width: 90%;
+    padding: 20px 20px 20px 20px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to bottom right, #f9fafb, hsl(0, 0%, 100%));
+    border: 1px solid rgba(229, 231, 235, 0.5);
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #FFFFFF;
+    outline: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+section .btn {
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-top: 50px;
+}
+
+section .btn button {
+    text-align: center;
+    margin-top: 40px;
+    width: 151px;
+    height: 56px;
+    background-color: #006A50;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px 10px 10px 10px;
+    cursor: pointer;
+    align-items: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+section .btn button:hover {
+    background-color: #5490F5;
+    color: #044d12;
+}
+
+/* bonus section */
+.container {
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 50px;
+    margin-top: 90px;
+}
+
+
+.container-2 {
+    background-color: #ddf1e9;
+    border-radius: 35px;
+    padding: 73px 72px;
+    text-align: center;
+}
+
+.container-2 h2 {
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 12px;
     font-family: "Fira Sans", serif;
 }
 
+.container-2 p {
+    color: #6b7280;
+    margin-bottom: 32px;
+    width: 512px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Fira Sans", serif;
+}
 
-/* futures section */
+.container-2 form {
+    display: flex;
+    width: 600px;
+    margin: 0 auto 18px;
+    border-radius: 10px;
+}
 
+.input-type {
+    flex: 1;
+    height: 42px;
+    border: none;
+    padding: 0 18px;
+    outline: none;
+}
+
+
+.container-2 button {
+    height: 42px;
+    padding: 0 24px;
+    background-color: #006b54;
+    color: white;
+    border: none;
+}
