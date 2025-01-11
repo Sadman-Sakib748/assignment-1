@@ -81,13 +81,12 @@ body {
 .pillars-container {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
     margin-top: 30px;
 
 }
 
 .pillars-box {
-    width: 200px;
+    width: 250px;
     height: 140px;
     background: linear-gradient(to bottom right, #f9fafb, #ffffff);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -133,12 +132,11 @@ body {
 .future p {
     margin-top: 30px;
     font-family: "Fira Sans", serif;
-    margin-top: 20px;
 }
 
 .future-box {
     margin-top: 30px;
-    width: 300px;
+    width: 368px;
     height: 220px;
     line-height: 20px;
     background: linear-gradient(to bottom right, #f9fafb, #ffffff);
@@ -152,7 +150,7 @@ body {
 
 .future-box-1 {
     margin-top: 30px;
-    width: 300px;
+    width: 368px;
     height: 220px;
     background: linear-gradient(to bottom right, #f9fafb, #ffffff);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -164,7 +162,7 @@ body {
 
 .future-box-2 {
     margin-top: 30px;
-    width: 300px;
+    width: 368px;
     height: 220px;
     background: linear-gradient(to bottom right, #f9fafb, #ffffff);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
